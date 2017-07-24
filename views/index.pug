@@ -1,0 +1,21 @@
+html
+  head
+    title= title
+    style
+      include main.css
+  body
+    h1= header
+    
+    ul
+      each val, index in groupedMessages
+        li(class='top-list')
+          div(class='date')=index
+        
+          ul
+            each msg in groupedMessages[index]
+              li= msg.time + ' - ' + msg.text
+            else
+              li There are no values
+      
+    hr
+    
