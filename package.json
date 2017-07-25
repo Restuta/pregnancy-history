@@ -1,6 +1,6 @@
 {
   "name": "pregnancy-history",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -45,6 +45,7 @@
     "express": "^4.15.3",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
     "pug": "^2.0.0-rc.2",
     "rimraf": "^2.5.2",
     "slack": "^8.3.1"
